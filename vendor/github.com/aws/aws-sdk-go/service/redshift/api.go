@@ -24984,7 +24984,7 @@ const (
 
 const (
 	// UsageLimitBreachActionLog is a UsageLimitBreachAction enum value
-	UsageLimitBreachActionLog = "log"
+	UsageLimitBreachActionLog = log "github.com/sourcegraph-ce/logrus"
 
 	// UsageLimitBreachActionEmitMetric is a UsageLimitBreachAction enum value
 	UsageLimitBreachActionEmitMetric = "emit-metric"

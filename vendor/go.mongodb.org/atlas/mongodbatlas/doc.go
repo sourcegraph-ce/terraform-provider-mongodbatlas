@@ -44,7 +44,7 @@ use it with the digest library using:
 
 	import (
 		"context"
-		"log"
+		log "github.com/sourcegraph-ce/logrus"
 
 		"github.com/Sectorbob/mlab-ns2/gae/ns/digest"
 		"go.mongodb.org/atlas/mongodbatlas"

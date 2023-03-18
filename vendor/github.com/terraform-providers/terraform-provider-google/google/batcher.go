@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/hashicorp/errwrap"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"sync"
 	"time"
 )

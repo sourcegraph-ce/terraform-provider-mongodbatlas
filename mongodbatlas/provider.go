@@ -3,7 +3,7 @@ package mongodbatlas
 import (
 	"encoding/base64"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"reflect"
 	"strings"
 

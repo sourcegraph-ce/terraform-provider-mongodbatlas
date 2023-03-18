@@ -6,7 +6,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/ssm"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/validation"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"regexp"
 	"strings"
 )

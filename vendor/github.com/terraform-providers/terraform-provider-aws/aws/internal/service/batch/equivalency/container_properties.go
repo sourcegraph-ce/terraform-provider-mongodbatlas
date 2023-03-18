@@ -3,7 +3,7 @@ package equivalency
 import (
 	"bytes"
 	"encoding/json"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"sort"
 
 	"github.com/aws/aws-sdk-go/aws"
